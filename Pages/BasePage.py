@@ -1,7 +1,7 @@
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import csv
+
 
 class Page(object):
     def __init__(self, driver, base_url='http://automationpractice.com/index.php'):

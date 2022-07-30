@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 
 from Pages.BasePage import Page
 
+
 class HomePage(Page):
     def __init__(self, driver):
         super(HomePage, self).__init__(driver)

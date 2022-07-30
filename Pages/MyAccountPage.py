@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 from Pages.BasePage import Page
-from selenium import webdriver
 
 class MyAccountPage(Page):
     def __init__(self, driver):
